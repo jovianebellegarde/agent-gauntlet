@@ -1,4 +1,4 @@
-# agent-gauntlet-copilot
+# agent-gauntlet
 
 **Make AI coding agents earn trust before they ship code.**
 
@@ -47,7 +47,7 @@ Anyone using GitHub Copilot agent workflows (or similar tooling) who wants **rea
 ### 1. Clone
 
 ```bash
-git clone https://github.com/jovianebellegarde/agent-gauntlet-copilot.git ~/agent-gauntlet-copilot
+git clone https://github.com/jovianebellegarde/agent-gauntlet.git ~/agent-gauntlet
 ```
 
 Use any path you like.
@@ -56,8 +56,8 @@ Use any path you like.
 
 ```bash
 mkdir -p /path/to/your-repo/.github/instructions /path/to/your-repo/.github/prompts
-cp -R ~/agent-gauntlet-copilot/.github/instructions/* /path/to/your-repo/.github/instructions/
-cp -R ~/agent-gauntlet-copilot/.github/prompts/* /path/to/your-repo/.github/prompts/
+cp -R ~/agent-gauntlet/.github/instructions/* /path/to/your-repo/.github/instructions/
+cp -R ~/agent-gauntlet/.github/prompts/* /path/to/your-repo/.github/prompts/
 ```
 
 ### 3. Reload your editor
